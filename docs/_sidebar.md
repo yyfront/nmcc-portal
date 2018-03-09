@@ -1,0 +1,5 @@
+- [安装](/install)
+- [命令](/command)
+- **模块**
+  - [app](/module/app)
+  - [init](/module/init)
