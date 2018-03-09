@@ -1,0 +1,35 @@
+{
+  "name": "nmcc-portal",
+  "version": "1.0.0",
+  "description": "nmcc web project",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "tsc",
+    "com": "node dist/server.js",
+    "start:prod": "node dist/main.js",
+    "e2e": "jest --config=jest-e2e.json --forceExit",
+    "e2e:watch": "jest --watch --config=e2e/jest-e2e.json"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.5.9",
+    "@nestjs/core": "^4.5.10",
+    "@nestjs/microservices": "^4.5.8",
+    "@nestjs/testing": "^4.5.5",
+    "@nestjs/websockets": "^4.5.8",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "opn": "^5.2.0",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "jest": "^22.4.2",
+    "nodemon": "^1.14.1",
+    "supertest": "^3.0.0",
+    "ts-jest": "21.1.2",
+    "ts-node": "^4.1.0"
+  }
+}
