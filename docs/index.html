@@ -1,24 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+
+<html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>NMCC</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="node.js & nest.js application" />
+  <meta name="keywords" content="nmcc node.js nest.js pandora" />
+
+
+  <!-- Facebook and Twitter integration -->
+  <!--<meta property="og:title" content=""/>-->
+  <!--<meta property="og:image" content=""/>-->
+  <!--<meta property="og:url" content=""/>-->
+  <!--<meta property="og:site_name" content=""/>-->
+  <!--<meta property="og:description" content=""/>-->
+  <!--<meta name="twitter:title" content="" />-->
+  <!--<meta name="twitter:image" content="" />-->
+  <!--<meta name="twitter:url" content="" />-->
+  <!--<meta name="twitter:card" content="" />-->
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="../css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="../css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.css">
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="../css/style.css">
+
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      homepage: 'install.md',
-      name: 'NMCC',
-      search: 'auto',
-      loadSidebar: 'sidebar.md'
+
+  <!-- Modernizr JS -->
+  <script src="//cdn.bootcss.com/modernizr/2.8.3/modernizr.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <style>
+    main aside {
+      margin-top: 60px;
     }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  </style>
+
+</head>
+<body class="scrolled">
+
+<div class="fh5co-loader"></div>
+
+<div id="page" style="height: 100%">
+  <nav class="fh5co-nav" role="navigation" style="position: fixed; top: 0; margin: 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 text-left">
+          <div id="fh5co-logo"><a href="index.html">NMCC<span>.</span></a></div>
+        </div>
+        <div class="col-xs-10 text-right menu-1">
+          <ul>
+            <li class="active"><a href="http://nmccjs.com/index.html">Home</a></li>
+            <li class="has-dropdown">
+              <a href="#">Tutorial</a>
+              <ul class="dropdown">
+                <li><a href="http://nmccjs.com/docs">Document</a></li>
+                <li><a href="http://nmccjs.com/docs">Command</a></li>
+                <li><a href="http://nmccjs.com/docs">API</a></li>
+              </ul>
+            </li>
+
+            <li><a href="http://nmccjs.com/#fh5co-services">About</a></li>
+            <li><a href="http://nmccjs.com/#fh5co-project">Products</a></li>
+            <li><a href="http://nmccjs.com/#fh5co-counter">Fever</a></li>
+            <li><a href="http://nmccjs.com/#fh5co-started">Contact Us</a></li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div id="app"></div>
+</div>
+
+<!-- jQuery -->
+<script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="//cdn.bootcss.com/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Bootstrap -->
+<script src="//cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="//cdn.bootcss.com/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<!-- countTo -->
+<script src="//cdn.bootcss.com/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
+<!-- Magnific Popup -->
+<script src="//cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script src="../js/magnific-popup-options.js"></script>
+<!-- Stellar -->
+<script src="//cdn.bootcss.com/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+<!-- Main -->
+<script src="index.js"></script>
+
+<script>
+    window.$docsify = {
+        homepage: 'install.md',
+        name: 'NMCC',
+        search: 'auto',
+        loadSidebar: 'sidebar.md'
+    }
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+
 </body>
 </html>
+
