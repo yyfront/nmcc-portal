@@ -552,7 +552,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #2074BB;
+  /*background: #2074BB;*/
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -562,13 +562,35 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
+#fh5co-header .display-tc .btn-primary,
+#fh5co-counter .display-tc .btn-primary,
+.fh5co-cover .display-tc .btn-primary {
+  background: #2074BB;
+}
+#fh5co-header .display-tc .btn-success,
+#fh5co-counter .display-tc .btn-success,
+.fh5co-cover .display-tc .btn-success {
+  background: #5cb85c;
+}
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #28A2FF !important;
+  /*background: #28A2FF !important;*/
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+#fh5co-header .display-tc .btn-primary:hover,
+#fh5co-counter .display-tc .btn-primary:hover,
+.fh5co-cover .display-tc .btn-primary:hover {
+  background: #28A2FF !important;
+  border-color: #28A2FF !important;
+}
+#fh5co-header .display-tc .btn-success:hover,
+#fh5co-counter .display-tc .btn-success:hover,
+.fh5co-cover .display-tc .btn-success:hover {
+  background: #5EE55E !important;
+  border-color: #5EE55E !important;
 }
 #fh5co-header .display-tc .or,
 #fh5co-counter .display-tc .or,
