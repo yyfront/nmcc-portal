@@ -1,16 +1,33 @@
-# 安装
-[NMCC-CLI](https://www.npmjs.com/package/nmcc-cli)是一个脚手架工具，可用于快速搭建基于[Nest.js](https://nestjs.com/)的node应用
-## npm :
-```npm install -g nmcc-cli```
+# 快速开始
 
-```shell
-# 全局安装 nmcc-cli
-$ npm install -g nmcc-cli
+## 本节目标
+1. 安装NMCC-CLI。
+2. 通过NMCC-CLI命令生成项目。
+3. 运行项目。
+
+### 安装 :
+通过npm命令全局安装NMCC-CLI。
+```
+npm install -g nmcc-cli
+```
+
+### 生成项目
+使用NMCC-CLI的 ``nmcc new <projectName>``命令生成一个项目。
+
+```
 # 创建一个基于nest.js的新项目
 $ nmcc new my-project
-# 安装依赖
+```
+
+### 运行项目
+进入项目目录，安装依赖
+```
 $ cd my-project
 $ npm install
-# 创建一个包含模板代码的login文件夹
-$ nmcc g login
+```
+执行应用本身命令
+```
+$ npm run start // 本地启动应用
+$ npm run build // TypeScript编译
+$ npm run e2e   // e2e测试
 ```
