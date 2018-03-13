@@ -31,3 +31,5 @@ $ npm run start // 本地启动应用
 $ npm run build // TypeScript编译
 $ npm run e2e   // e2e测试
 ```
+
+!> 为搭配监控系统对接，线上生产环境请使用pandora.js守护进程项目，教程链接[Pandora.js](http://www.midwayjs.org/pandora/zh-cn/base/procfile_mode.html)
