@@ -27,9 +27,23 @@ $ npm install
 ```
 执行应用本身命令
 ```
-$ npm run start // 本地启动应用
+$ npm run start // 本地启动应用(nodemon模式)
+$ npm run dev   // 本地启动应用(pandora模式)，该模式下在监控面板下可查看运行状态
 $ npm run build // TypeScript编译
 $ npm run e2e   // e2e测试
 ```
 
-!> 为搭配监控系统对接，线上生产环境请使用pandora.js守护进程项目，教程链接[Pandora.js](http://www.midwayjs.org/pandora/zh-cn/base/procfile_mode.html)
+### 监控管理面板
+安装pandora-dashboard
+```
+$ npm install pandora-dashboard -g
+$ pandora start --name dashboard `pandora-dashboard-dir` # 使用该命令获得路径，用于启动
+```
+访问`http://localhost:9081`就能看到。
+
+
+!> 线上生产环境请使用`pandora.js`守护进程项目，详情链接：[Pandora.js](http://www.midwayjs.org/pandora/zh-cn/base/procfile_mode.html)
+```
+$ npm install pandora -g
+$ pandora start
+```
